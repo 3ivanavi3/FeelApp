@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box; }
+
+body{
+		 
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#contenedor{padding: 0px ;
+	widht: 100%;		
+	max-width: 1300px;
+		margin:auto;
+	overflow: hidden;}
+
+nav{ text-align: right;
+	padding:  20px 0 0}
+
+nav > a { color:#FFFFFF;
+	font-weight: 300;
+	text-decoration: none; 
+	margin-right: 10px;
+		}
+nav > a:hover{ text-decoration: underline;
+	}
+
+#textos-header{ font-size: 60px; 
+		text-align: center;
+		color: #06534D;
+		padding: 100px;}
+
+
+#textos-header2{font-size: 15px;
+				text-align: center;
+				color: #FFFFFF;
+				padding-right:20px;
+				margin-left: 200px;}
+.nosotros{ width: 180px;
+		height: 180px;
+		margin: 10px;
+		align: center;}
+
+.equipo {margin: 25px;
+		color: #EF2878;
+		font-size: 25px;
+		text-align: center;}
+.nosotros:hover{ transform: scale(1.15);
+				transition: all .3s;}
+header{
+	height:600px;
+	background: #3f888f;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, linear-gradient(to right, hsla(182, 100%, 20%, 1), hsla(171, 100%, 38%, 0.84)), url("imagenes/amor.png"););  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(182, 100%, 20%, 1), hsla(171, 100%, 38%, 0.84)), url("imagenes/amor.png");
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	 }
+.wave{position: absolute;
+		bottom: 0px;
+		width: 1500px;}
+
+.felito{float:right;
+		width: 220px;	
+		height: 250px;
+		margin:auto;
+		display: block;}
+
+.segundo{margin: 25px;
+		color: #EF2878;
+		font-size: 25px;
+		text-align: center;}
+
+.textos{ margin: 15px;
+		color: #034630;
+		font-size: 25px;
+		text-align: justify;}
+	
+img{ width: 200px;
+		float:left;
+		position:sticky; 
+		}
+
+.texto1{margin: 15px;
+		color: #034630;
+		font-size: 25px;
+		text-align: justify;
+	float: right;}
+
+
+.tercero{margin: 25px;
+		color: #EF2878;
+		font-size: 25px;
+		text-align: center;}
+
+
+.titulo-final{font-size: 20px;
+				text-align: center;
+				color: #FFFFFF;
+				padding-right:20px;
+				margin-left: 200px;
+				padding: 30px;}
+
+.parallax-chico{height: 450px;
+				background-color: hsla(168,80%,72%,1.00);
+				background-image: url("imagenes/banner.png");
+				background-attachment: fixed;
+	background-size: cover;
+	background-position: center;}
+
+.tareas {width: 280px;
+		height: 280px;
+		margin: 10px;
+		align: center;
+		border-radius: 15px;}
+.tareas:hover{ transform: scale(1.115);
+				transition: all .3s;}
+
+.segundo2{margin: 25px;
+		color: #EF2878;
+		font-size: 25px;
+		text-align: center;
+	clear: left;
+display: block;}
+
+.wave2{
+	height:600px;
+	background: #3f888f;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, linear-gradient(to right, hsla(182, 100%, 20%, 1), hsla(171, 100%, 38%, 0.84)), url("imagenes/amor.png"););  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(182, 100%, 20%, 1), hsla(171, 100%, 38%, 0.84)), url("imagenes/amor.png");
+
+
+
+
+
+
+	
+	
+
+
+
+
